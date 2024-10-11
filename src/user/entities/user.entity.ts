@@ -16,4 +16,4 @@ export class User extends Document {
   lastName: string;
 }
 
-export const UserModel = SchemaFactory.createForClass(User);
+export const UserSchema = SchemaFactory.createForClass(User);

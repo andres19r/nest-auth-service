@@ -7,7 +7,7 @@ export class CreateUserDto {
 
   @IsString()
   @MinLength(1)
-  fistName: string;
+  firstName: string;
 
   @IsString()
   @MinLength(1)
